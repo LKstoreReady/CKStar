@@ -1,0 +1,17 @@
+
+import UIKit
+import TTLBGenerals
+
+class PtPhotoCaptureInteractiveDismiss: HeMonoDwarfWriter {
+      var gInsertUpdate:Int = 0
+      var iGetFacets:String?
+    override func setValue(_ value: Any?, forKey key: String) {
+        if key == mFramebufferCache{
+            super.setValue(value, forKey: "gInsertUpdate")
+        }else if key == uGroupDic{
+            super.setValue(value, forKey: "iGetFacets")
+        }else{
+            super.setValue(value, forKey: key)
+        }
+    }
+}

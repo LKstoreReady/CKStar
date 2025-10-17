@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PtErrorLevelError" customModule="Taleo_mine">
+            <rect key="frame" x="0.0" y="0.0" width="270" height="360"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q91-hr-UtQ">
+                    <rect key="frame" x="0.0" y="0.0" width="270" height="360"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPX-rx-Un6">
+                    <rect key="frame" x="0.0" y="0.0" width="270" height="360"/>
+                    <color key="backgroundColor" red="0.13725490196078433" green="0.13725490196078433" blue="0.13725490196078433" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWv-cB-beh">
+                    <rect key="frame" x="0.0" y="0.0" width="270" height="360"/>
+                    <color key="backgroundColor" red="1" green="0.86274509803921573" blue="0.63921568627450975" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="wRefreshFeed" value="conducted_pwrite_fontvariant"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="rxDidChange:" destination="iN0-l3-epB" eventType="touchUpInside" id="jdz-as-Sj7"/>
+                    </connections>
+                </button>
+                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VpB-GR-RoK">
+                    <rect key="frame" x="0.0" y="0.0" width="270" height="360"/>
+                    <color key="backgroundColor" red="0.17254901960784313" green="0.17254901960784313" blue="0.17254901960784313" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="wRefreshFeed" value="eelistused_libra_venerd"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="IPX-rx-Un6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2JG-6U-YD2"/>
+                <constraint firstItem="Q91-hr-UtQ" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="5C5-cG-Gre"/>
+                <constraint firstItem="Q91-hr-UtQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="6JQ-xo-5fO"/>
+                <constraint firstAttribute="bottom" secondItem="IPX-rx-Un6" secondAttribute="bottom" id="EUJ-d8-L5R"/>
+                <constraint firstAttribute="bottom" secondItem="hWv-cB-beh" secondAttribute="bottom" id="Tzk-HX-0zd"/>
+                <constraint firstItem="VpB-GR-RoK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="XTY-rK-FTK"/>
+                <constraint firstItem="hWv-cB-beh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="YwS-vh-dHr"/>
+                <constraint firstItem="hWv-cB-beh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="ciw-nG-k8h"/>
+                <constraint firstItem="hWv-cB-beh" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="jWr-1d-5IP"/>
+                <constraint firstItem="VpB-GR-RoK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="nmx-aq-SN3"/>
+                <constraint firstAttribute="bottom" secondItem="VpB-GR-RoK" secondAttribute="bottom" id="pSX-m6-z32"/>
+                <constraint firstAttribute="trailing" secondItem="VpB-GR-RoK" secondAttribute="trailing" id="tl7-nT-9Rt"/>
+                <constraint firstItem="IPX-rx-Un6" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="udB-1p-E2a"/>
+                <constraint firstItem="Q91-hr-UtQ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="vV0-Ue-gm9"/>
+                <constraint firstAttribute="bottom" secondItem="Q91-hr-UtQ" secondAttribute="bottom" id="xhp-cB-gSF"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="IPX-rx-Un6" secondAttribute="trailing" id="xti-vF-GOk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="uRemoveListeners" destination="hWv-cB-beh" id="7hd-cg-osO"/>
+                <outlet property="pNormalizedName" destination="VpB-GR-RoK" id="eHP-0B-vm8"/>
+                <outlet property="lStreamIndex" destination="Q91-hr-UtQ" id="p91-No-d9T"/>
+                <outlet property="yUpdateRunnable" destination="IPX-rx-Un6" id="q6E-IJ-gO5"/>
+            </connections>
+            <point key="canvasLocation" x="0.0" y="-184.50704225352115"/>
+        </view>
+    </objects>
+</document>
