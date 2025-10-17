@@ -33,14 +33,14 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="230" verticalCompressionResistancePriority="230" text="aaaaa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ctj-mn-8Ap">
-                                <rect key="frame" x="63" y="12.666666666666664" width="43.333333333333343" height="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="230" verticalCompressionResistancePriority="230" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ctj-mn-8Ap">
+                                <rect key="frame" x="63" y="12.666666666666666" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="textColor" red="0.80392156862745101" green="0.52941176470588236" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="asdfasd" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="paY-Zi-Q5Y">
-                                <rect key="frame" x="63" y="37.666666666666664" width="43.666666666666657" height="13"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="paY-Zi-Q5Y">
+                                <rect key="frame" x="63" y="50.666666666666664" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="11"/>
                                 <color key="textColor" red="0.92941176470588238" green="0.44705882352941173" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -86,10 +86,10 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="zFilteredTraits" destination="UBf-6Y-mY2" id="nfr-6d-b5a"/>
+                <outlet property="hLeakArray" destination="paY-Zi-Q5Y" id="sIh-RQ-nti"/>
                 <outlet property="nRailItem" destination="HGn-D6-6MW" id="AYY-GE-fq7"/>
                 <outlet property="yOutlinedSpoke" destination="ctj-mn-8Ap" id="79D-za-Zj9"/>
-                <outlet property="hLeakArray" destination="paY-Zi-Q5Y" id="sIh-RQ-nti"/>
+                <outlet property="zFilteredTraits" destination="UBf-6Y-mY2" id="nfr-6d-b5a"/>
             </connections>
             <point key="canvasLocation" x="89.312977099236633" y="-5.6338028169014089"/>
         </tableViewCell>

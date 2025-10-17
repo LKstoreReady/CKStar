@@ -16,7 +16,6 @@ let package = Package(
     ],
     dependencies: [
         
-        // 在这里重新添加你之前的第三方依赖
         .package(url: "https://github.com/LKstoreReady/TTLBGenerals", .upToNextMajor(from: "1.0.0")),
         .package(url: "https://github.com/LKstoreReady/NKWorking", .upToNextMajor(from: "1.0.1")),
         .package(url: "https://github.com/CoderMJLee/MJRefresh", .upToNextMajor(from: "3.7.9")),

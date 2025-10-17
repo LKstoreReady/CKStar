@@ -41,7 +41,6 @@ class PtErrorLevelError: UIView {
     deinit {
         resultBundleDelegate = nil
         capturedStatusBarProperties()
-        print("````````````````````````PtErrorLevelError deinit")
     }
         
         

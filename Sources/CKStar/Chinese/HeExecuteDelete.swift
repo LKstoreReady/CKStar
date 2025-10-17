@@ -74,11 +74,7 @@ public class HeExecuteDelete: NSObject {
     public var aTasksConfig = ""
     public var iActivityState: Bool = false
     public var hFromTime = 0
-    public var iRecordIndex = true {
-        didSet {
-            print("")
-        }
-    }
+    public var iRecordIndex = true
     public var rContactThreads = true
     public var mPreParse = false
     public var rForUniform = false

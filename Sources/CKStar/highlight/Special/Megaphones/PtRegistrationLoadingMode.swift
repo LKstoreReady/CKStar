@@ -43,7 +43,6 @@ class PtRegistrationLoadingMode: UIView{
         eCreateTransport.resignFirstResponder()
         HeLoadPaletted.pulCounterOutputVideo()
         iSuppressAnimations.symRoundedCheckBox([kNotSpecified : eCreateTransport.text!]) { [weak self] dics in
-            print(dics)
             let kTimeUpdate = dics.getEncodedAuthority(vSourceAci)
             if kTimeUpdate.count > 0 && self != nil {
                 self?.tDocumentReference.messageIdsToSend(kTimeUpdate[0] as! NSDictionary)

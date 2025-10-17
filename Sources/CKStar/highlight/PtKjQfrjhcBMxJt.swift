@@ -14,9 +14,6 @@ class PtKjQfrjhcBMxJt: UIView {
     var wCameraOrientation:wCameraOrientation?
         
         
-    deinit {
-        print("`````````````````````PtKjQfrjhcBMxJt deinit")
-    }
         
         
     override func awakeFromNib() {
