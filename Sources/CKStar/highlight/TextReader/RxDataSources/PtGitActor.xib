@@ -7,11 +7,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PtGitActor" customModule="Taleo_mine">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PtGitActor" customModule="CKStar">
             <connections>
                 <outlet property="cBuildResult" destination="GsU-Oa-CWA" id="1ab-zf-sLm"/>
-                <outlet property="eTransformedPoint" destination="jQc-BE-u95" id="dZI-fo-A4K"/>
                 <outlet property="cIsSpecified" destination="OQP-6Y-r6S" id="7sW-ai-VFn"/>
+                <outlet property="eTransformedPoint" destination="jQc-BE-u95" id="dZI-fo-A4K"/>
                 <outlet property="tMenuSession" destination="iN0-l3-epB" id="GK2-qN-6tr"/>
             </connections>
         </placeholder>

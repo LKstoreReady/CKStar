@@ -8,25 +8,25 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PtExecutorReflectedGenFnType" customModule="Taleo_mine">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PtExecutorReflectedGenFnType" customModule="CKStar">
             <connections>
-                <outlet property="gMdiRodent" destination="maj-Cl-1OK" id="8fk-L4-iKM"/>
+                <outlet property="cEntryAt" destination="dwS-qy-Yoa" id="Lab-XS-Jfn"/>
                 <outlet property="dDiameter" destination="Han-0b-h41" id="hhs-US-rzQ"/>
-                <outlet property="sAssertLinkifies" destination="vgK-NJ-LOJ" id="eRO-93-Avk"/>
-                <outlet property="uTrackingEnabled" destination="mb0-ok-EL5" id="0Rh-Fl-AiK"/>
-                <outlet property="pIdentifierKey" destination="bEl-mp-hqK" id="Vab-2y-EFj"/>
-                <outlet property="jButtonId" destination="8LC-No-kYj" id="kQv-qt-kYU"/>
-                <outlet property="oFailedMigration" destination="Li7-00-sPT" id="Q5s-z5-jDJ"/>
-                <outlet property="sCallIdx" destination="0hn-zH-2Mb" id="eok-95-jUd"/>
                 <outlet property="dDictBuilder" destination="jP9-l5-D44" id="Arg-Km-Glo"/>
                 <outlet property="eContainsAddress" destination="1wt-pG-Y22" id="CWO-7e-bjE"/>
-                <outlet property="wAsyncFunc" destination="9fa-Mp-Akp" id="EgQ-hJ-qWn"/>
+                <outlet property="gMdiRodent" destination="maj-Cl-1OK" id="8fk-L4-iKM"/>
                 <outlet property="gTsetCol" destination="D0H-Qt-ReV" id="Lbd-Hu-jXC"/>
-                <outlet property="xDrawFrame" destination="sCw-lU-Waj" id="WDk-xH-sSa"/>
-                <outlet property="cEntryAt" destination="dwS-qy-Yoa" id="Lab-XS-Jfn"/>
-                <outlet property="sReportFailure" destination="gcT-cg-wmp" id="DpN-eG-mIV"/>
+                <outlet property="jButtonId" destination="8LC-No-kYj" id="kQv-qt-kYU"/>
+                <outlet property="oFailedMigration" destination="Li7-00-sPT" id="Q5s-z5-jDJ"/>
+                <outlet property="pIdentifierKey" destination="bEl-mp-hqK" id="Vab-2y-EFj"/>
+                <outlet property="sAssertLinkifies" destination="vgK-NJ-LOJ" id="eRO-93-Avk"/>
+                <outlet property="sCallIdx" destination="0hn-zH-2Mb" id="eok-95-jUd"/>
                 <outlet property="sDeviceHeight" destination="N8z-tP-p6U" id="HCy-2a-XjC"/>
+                <outlet property="sReportFailure" destination="gcT-cg-wmp" id="DpN-eG-mIV"/>
+                <outlet property="uTrackingEnabled" destination="mb0-ok-EL5" id="0Rh-Fl-AiK"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wAsyncFunc" destination="9fa-Mp-Akp" id="EgQ-hJ-qWn"/>
+                <outlet property="xDrawFrame" destination="sCw-lU-Waj" id="WDk-xH-sSa"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

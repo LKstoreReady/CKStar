@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="70" id="KGk-i7-Jjw" customClass="PtCallRecordLoaderLoadDirection" customModule="Taleo_mine">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="70" id="KGk-i7-Jjw" customClass="PtCallRecordLoaderLoadDirection" customModule="CKStar">
             <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -144,16 +144,16 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
-                <outlet property="xInstructLabel" destination="hfl-zV-F8Y" id="J7c-8W-fs1"/>
-                <outlet property="tEnableAttitude" destination="fmz-wq-8DD" id="EVU-DJ-k8w"/>
-                <outlet property="pInternalMode" destination="5Yx-JG-pdw" id="ABR-Zn-eGd"/>
-                <outlet property="kLastColor" destination="cys-mg-SKI" id="4GU-f4-M0R"/>
                 <outlet property="iRoundSort" destination="nxv-r8-YjN" id="03P-PC-XZT"/>
-                <outlet property="vDisplayedValues" destination="Ljv-QD-RO5" id="UHW-qv-H4D"/>
-                <outlet property="tArticleID" destination="mWV-yf-BW6" id="4r6-My-1u5"/>
+                <outlet property="kLastColor" destination="cys-mg-SKI" id="4GU-f4-M0R"/>
+                <outlet property="pInternalMode" destination="5Yx-JG-pdw" id="ABR-Zn-eGd"/>
                 <outlet property="qDotType" destination="Q4X-h3-zFh" id="wCv-Zd-Mwk"/>
+                <outlet property="tArticleID" destination="mWV-yf-BW6" id="4r6-My-1u5"/>
+                <outlet property="tEnableAttitude" destination="fmz-wq-8DD" id="EVU-DJ-k8w"/>
                 <outlet property="uPositionLocation" destination="zW1-8O-fEc" id="hVo-F0-dPg"/>
+                <outlet property="vDisplayedValues" destination="Ljv-QD-RO5" id="UHW-qv-H4D"/>
                 <outlet property="wSetXfermode" destination="t8Z-ul-fy3" id="nDB-PA-Ysq"/>
+                <outlet property="xInstructLabel" destination="hfl-zV-F8Y" id="J7c-8W-fs1"/>
             </connections>
             <point key="canvasLocation" x="129.7709923664122" y="-7.746478873239437"/>
         </tableViewCell>

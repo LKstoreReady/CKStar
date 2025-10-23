@@ -8,15 +8,15 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UoTextureRegistrar" customModule="Taleo_mine">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UoTextureRegistrar" customModule="CKStar">
             <connections>
-                <outlet property="zSlowPosition" destination="liR-IQ-ab2" id="WI2-mw-w21"/>
+                <outlet property="mMatchSpec" destination="mTO-MX-W9y" id="MDp-Gk-Bqh"/>
+                <outlet property="mStateName" destination="jMg-U6-DIu" id="X6e-XN-9o1"/>
                 <outlet property="vDeselectItem" destination="HmZ-0q-JFN" id="Qql-LR-AmV"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="xAttributionIdentifiers" destination="XeD-x1-dsD" id="EsK-ho-fnA"/>
                 <outlet property="yUsingColor" destination="NRP-az-ceb" id="Mux-sJ-Fn3"/>
-                <outlet property="mStateName" destination="jMg-U6-DIu" id="X6e-XN-9o1"/>
-                <outlet property="mMatchSpec" destination="mTO-MX-W9y" id="MDp-Gk-Bqh"/>
-                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="zSlowPosition" destination="liR-IQ-ab2" id="WI2-mw-w21"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

@@ -9,13 +9,13 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UoNumResources" customModule="Taleo_mine">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UoNumResources" customModule="CKStar">
             <connections>
                 <outlet property="eDstAngle" destination="25H-bg-Itg" id="vZl-8e-BAi"/>
-                <outlet property="rCalcData" destination="Z7R-Lz-aZ8" id="wh8-FP-514"/>
-                <outlet property="mDstAngle" destination="IbJ-nB-sC6" id="sBc-FR-ZnC"/>
                 <outlet property="hVibrationEffect" destination="auE-2x-fgo" id="QFF-xe-kGL"/>
+                <outlet property="mDstAngle" destination="IbJ-nB-sC6" id="sBc-FR-ZnC"/>
                 <outlet property="qFriendRelationship" destination="PHW-0Z-puJ" id="evX-fz-dxs"/>
+                <outlet property="rCalcData" destination="Z7R-Lz-aZ8" id="wh8-FP-514"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

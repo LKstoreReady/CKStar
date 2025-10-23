@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PtTeamRemoveMemberAuditEntry" id="gTV-IL-0wX" customClass="PtTeamRemoveMemberAuditEntry" customModule="Taleo_mine">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PtTeamRemoveMemberAuditEntry" id="gTV-IL-0wX" customClass="PtTeamRemoveMemberAuditEntry" customModule="CKStar">
             <rect key="frame" x="0.0" y="0.0" width="109" height="68"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -87,8 +87,8 @@
             <size key="customSize" width="89" height="68"/>
             <connections>
                 <outlet property="cUniqueData" destination="VIH-9Z-LYf" id="MEG-6h-dcS"/>
-                <outlet property="tOutlinedHeadset" destination="Hvp-66-SNQ" id="zfE-35-vGe"/>
                 <outlet property="rHideKeyboard" destination="ofc-bU-A37" id="29j-p0-IZO"/>
+                <outlet property="tOutlinedHeadset" destination="Hvp-66-SNQ" id="zfE-35-vGe"/>
             </connections>
             <point key="canvasLocation" x="61.832061068702288" y="-5.6338028169014089"/>
         </collectionViewCell>

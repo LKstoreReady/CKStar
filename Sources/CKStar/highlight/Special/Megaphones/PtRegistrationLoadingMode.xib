@@ -8,18 +8,18 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PtRegistrationLoadingMode" customModule="Taleo_mine">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PtRegistrationLoadingMode" customModule="CKStar">
             <connections>
-                <outlet property="tIdentifierValue" destination="hRm-kn-NqM" id="mOb-kY-gof"/>
-                <outlet property="sAssertLinkifies" destination="ArE-HU-cSW" id="Ano-JE-ar7"/>
-                <outlet property="tMenuSession" destination="iN0-l3-epB" id="itQ-2o-c2G"/>
-                <outlet property="nScraped" destination="acJ-Sb-Cag" id="3SJ-Lb-qc6"/>
-                <outlet property="iAllCommited" destination="M8O-yg-gq9" id="Pkf-9E-6Gf"/>
-                <outlet property="yAppendingKey" destination="k2w-Tj-Mio" id="YsZ-Lp-xEj"/>
                 <outlet property="eCreateTransport" destination="ZYa-qQ-upp" id="44a-zl-C9y"/>
+                <outlet property="iAllCommited" destination="M8O-yg-gq9" id="Pkf-9E-6Gf"/>
+                <outlet property="nScraped" destination="acJ-Sb-Cag" id="3SJ-Lb-qc6"/>
+                <outlet property="sAssertLinkifies" destination="ArE-HU-cSW" id="Ano-JE-ar7"/>
+                <outlet property="tIdentifierValue" destination="hRm-kn-NqM" id="mOb-kY-gof"/>
+                <outlet property="tMenuSession" destination="iN0-l3-epB" id="itQ-2o-c2G"/>
                 <outlet property="tWidgetOptions" destination="uOh-ij-vFY" id="lOu-Z6-b6E"/>
-                <outlet property="zLabelRow" destination="jam-t0-dxu" id="708-Iv-al7"/>
                 <outlet property="uUnwantedLevels" destination="sTG-9Y-y6D" id="7fS-lx-abV"/>
+                <outlet property="yAppendingKey" destination="k2w-Tj-Mio" id="YsZ-Lp-xEj"/>
+                <outlet property="zLabelRow" destination="jam-t0-dxu" id="708-Iv-al7"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

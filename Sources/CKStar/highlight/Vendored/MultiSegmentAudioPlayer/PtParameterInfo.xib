@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PtParameterInfo" customModule="Taleo_mine">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PtParameterInfo" customModule="CKStar">
             <rect key="frame" x="0.0" y="0.0" width="120" height="145"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -85,11 +85,11 @@
             </constraints>
             <size key="customSize" width="120" height="145"/>
             <connections>
-                <outlet property="jOfRectangle" destination="cqX-5A-2eU" id="jaF-cI-aKp"/>
-                <outlet property="aLastBlur" destination="Egl-QX-LwW" id="lmG-bL-0M1"/>
-                <outlet property="fLayoutElements" destination="e3R-iX-edD" id="TMA-r4-bqP"/>
-                <outlet property="cFocusListener" destination="gUb-18-GJe" id="FJo-n7-aQ7"/>
                 <outlet property="aCompressionLevel" destination="QAo-yn-ldn" id="1kP-Mb-nQY"/>
+                <outlet property="aLastBlur" destination="Egl-QX-LwW" id="lmG-bL-0M1"/>
+                <outlet property="cFocusListener" destination="gUb-18-GJe" id="FJo-n7-aQ7"/>
+                <outlet property="fLayoutElements" destination="e3R-iX-edD" id="TMA-r4-bqP"/>
+                <outlet property="jOfRectangle" destination="cqX-5A-2eU" id="jaF-cI-aKp"/>
             </connections>
             <point key="canvasLocation" x="183.20610687022901" y="22.183098591549296"/>
         </collectionViewCell>

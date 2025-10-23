@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PtTryFromSysconfName" customModule="Taleo_mine">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PtTryFromSysconfName" customModule="CKStar">
             <rect key="frame" x="0.0" y="0.0" width="60" height="96"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -61,9 +61,9 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
+                <outlet property="iDispatchCancel" destination="aAQ-Ge-Lb3" id="H7r-YW-4mo"/>
                 <outlet property="vAllSeries" destination="VRv-KU-GIa" id="spY-zo-6ZE"/>
                 <outlet property="yAppendingKey" destination="QoU-h1-ey3" id="vA8-c5-ske"/>
-                <outlet property="iDispatchCancel" destination="aAQ-Ge-Lb3" id="H7r-YW-4mo"/>
             </connections>
             <point key="canvasLocation" x="-95.419847328244273" y="-11.267605633802818"/>
         </view>

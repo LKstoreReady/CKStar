@@ -8,68 +8,68 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PtResetVSync" customModule="Taleo_mine">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PtResetVSync" customModule="CKStar">
             <connections>
-                <outlet property="dDistanceInterval" destination="xQS-fd-ES4" id="h8r-2a-O8e"/>
-                <outlet property="zPluginDic" destination="a8e-ef-Chz" id="pUb-Ot-RQv"/>
-                <outlet property="lExtensionIndex" destination="tOf-AJ-Kgx" id="lSD-Tk-H5M"/>
-                <outlet property="rTrueBlock" destination="maT-0c-17W" id="pEy-vX-kPq"/>
-                <outlet property="rSolidContainer" destination="LlI-sj-tcf" id="d8C-vc-rxn"/>
-                <outlet property="pNewModels" destination="h1g-uE-WYJ" id="Hb4-Ab-4d9"/>
-                <outlet property="jMonthContext" destination="HFW-x1-gib" id="f2R-kW-Vnl"/>
-                <outlet property="rUptimeNanoseconds" destination="gCz-vq-RkP" id="wFY-VI-8Oq"/>
-                <outlet property="yStatusTime" destination="DfN-Xa-NMU" id="RCY-2B-AW7"/>
-                <outlet property="dSetPrompt" destination="d4B-QQ-3L8" id="iKy-PF-NmY"/>
-                <outlet property="kMotionsCount" destination="UMd-iO-Fsq" id="xXI-O6-PSI"/>
-                <outlet property="fHslValue" destination="RHZ-mt-ZWP" id="OLB-cB-THa"/>
-                <outlet property="sMdiValve" destination="fCI-u4-LcD" id="GXg-ds-Tlg"/>
-                <outlet property="bGroupReply" destination="B5D-q7-XPR" id="dj7-hl-arz"/>
-                <outlet property="fPageMask" destination="SFu-OF-OoB" id="j2q-z1-KMJ"/>
-                <outlet property="vPreviousContainer" destination="U7B-xq-xuD" id="Nl4-zY-Uui"/>
-                <outlet property="zSolidContainer" destination="PcQ-jD-UkP" id="dh0-vA-ilO"/>
-                <outlet property="zSamplerDescriptor" destination="Wse-8j-JkA" id="eod-fN-KI5"/>
-                <outlet property="uCameraState" destination="eQ1-HU-cac" id="7Yf-NX-Ubu"/>
-                <outlet property="oChunkSource" destination="O8L-le-5g9" id="w6Y-5T-O6m"/>
-                <outlet property="bSecurityInfo" destination="jQA-CF-zku" id="eYj-ey-VU1"/>
-                <outlet property="wForCron" destination="Rgo-70-muV" id="q9m-2e-vej"/>
-                <outlet property="yRuntimeJars" destination="s2U-d3-A55" id="f1i-uo-aKf"/>
-                <outlet property="aLowestIdx" destination="FvB-13-AP0" id="9c0-9c-N3f"/>
-                <outlet property="lGetUniformf" destination="KQu-mV-UYD" id="Keq-R3-iC0"/>
-                <outlet property="vStopValue" destination="xFV-sB-2xD" id="PLs-jz-GY0"/>
-                <outlet property="xSetImageheight" destination="brX-9k-TX4" id="tTX-iZ-2za"/>
-                <outlet property="wIssuedToken" destination="lTm-Vm-0K6" id="rcN-bL-SYS"/>
-                <outlet property="mBadgeConfig" destination="a3H-zu-aXz" id="rbh-6g-YBQ"/>
-                <outlet property="dAsyncBlur" destination="Qrf-eH-NOH" id="PNA-UT-tVS"/>
-                <outlet property="sPlayerData" destination="gKi-w2-A3i" id="WKC-nn-CMT"/>
-                <outlet property="rRegisterNotifications" destination="eWy-fI-hdn" id="tFh-Oe-dWL"/>
-                <outlet property="yNextDelim" destination="ARG-i2-T4e" id="KeE-d9-lfM"/>
-                <outlet property="aGroupCalls" destination="aWo-pF-khu" id="XtN-9r-MJj"/>
-                <outlet property="sBackIndex" destination="4fJ-kY-pzN" id="OCf-Eg-lce"/>
-                <outlet property="gInternalFormat" destination="yRH-Ap-qoE" id="6qL-mt-eWN"/>
-                <outlet property="oThePoint" destination="skT-WU-SoE" id="4it-r9-XhA"/>
-                <outlet property="vPositionRight" destination="95h-Wp-HZS" id="Gc6-nQ-WGG"/>
-                <outlet property="yStrParam" destination="xpM-3N-yMj" id="Ry9-NI-gsf"/>
-                <outlet property="nBoxNone" destination="EXU-Cx-Aei" id="NF2-j8-WOP"/>
-                <outlet property="qFrozenRealm" destination="imY-p3-DVW" id="MaM-ed-RvX"/>
-                <outlet property="qCachePath" destination="2z3-dc-Cd7" id="cJf-oM-F02"/>
-                <outlet property="nAssertContains" destination="J9j-7O-wMj" id="nMw-KA-pAu"/>
-                <outlet property="eListeners" destination="rv4-V7-SRi" id="PTE-hh-tGr"/>
-                <outlet property="oTextStyle" destination="xAR-v0-EEa" id="dQQ-X8-Gc5"/>
-                <outlet property="oWrappingView" destination="AxS-LS-6kd" id="dOq-js-LwJ"/>
                 <outlet property="aEnsureSpace" destination="xZT-gc-xVN" id="9tK-tD-DXc"/>
-                <outlet property="xInvalidOperation" destination="m7a-bf-IlO" id="k8S-mO-yxR"/>
-                <outlet property="rSetNative" destination="844-TI-VTv" id="Qb0-FQ-vvr"/>
-                <outlet property="qContentIdentifier" destination="xVB-N5-W8a" id="tMR-er-Oss"/>
-                <outlet property="uImagePaths" destination="95R-2S-DlE" id="9nT-OO-mUg"/>
-                <outlet property="sDeviceHeight" destination="IKq-Hu-u44" id="Gdg-1G-d95"/>
-                <outlet property="pRshiftPacked" destination="7z7-mm-RjB" id="eih-ax-ngn"/>
+                <outlet property="aGroupCalls" destination="aWo-pF-khu" id="XtN-9r-MJj"/>
+                <outlet property="aLowestIdx" destination="FvB-13-AP0" id="9c0-9c-N3f"/>
+                <outlet property="bGroupReply" destination="B5D-q7-XPR" id="dj7-hl-arz"/>
+                <outlet property="bSecurityInfo" destination="jQA-CF-zku" id="eYj-ey-VU1"/>
                 <outlet property="cAsPromise" destination="IZk-Yd-Vn5" id="eW0-sU-QJu"/>
-                <outlet property="vPlaybackUrl" destination="epE-Uv-aDp" id="njz-tG-GW3"/>
-                <outlet property="qUnloadGL" destination="v55-ZU-S3j" id="Jrf-56-sva"/>
-                <outlet property="iCancelAuthenticate" destination="g8U-7j-gop" id="k55-8G-CSI"/>
+                <outlet property="dAsyncBlur" destination="Qrf-eH-NOH" id="PNA-UT-tVS"/>
+                <outlet property="dDistanceInterval" destination="xQS-fd-ES4" id="h8r-2a-O8e"/>
+                <outlet property="dSetPrompt" destination="d4B-QQ-3L8" id="iKy-PF-NmY"/>
                 <outlet property="eHasActions" destination="Jkt-qb-xhb" id="4xz-S7-iIe"/>
-                <outlet property="yOldView" destination="uee-tI-AhX" id="yUK-NK-InP"/>
+                <outlet property="eListeners" destination="rv4-V7-SRi" id="PTE-hh-tGr"/>
+                <outlet property="fHslValue" destination="RHZ-mt-ZWP" id="OLB-cB-THa"/>
+                <outlet property="fPageMask" destination="SFu-OF-OoB" id="j2q-z1-KMJ"/>
+                <outlet property="gInternalFormat" destination="yRH-Ap-qoE" id="6qL-mt-eWN"/>
+                <outlet property="iCancelAuthenticate" destination="g8U-7j-gop" id="k55-8G-CSI"/>
+                <outlet property="jMonthContext" destination="HFW-x1-gib" id="f2R-kW-Vnl"/>
+                <outlet property="kMotionsCount" destination="UMd-iO-Fsq" id="xXI-O6-PSI"/>
+                <outlet property="lExtensionIndex" destination="tOf-AJ-Kgx" id="lSD-Tk-H5M"/>
+                <outlet property="lGetUniformf" destination="KQu-mV-UYD" id="Keq-R3-iC0"/>
+                <outlet property="mBadgeConfig" destination="a3H-zu-aXz" id="rbh-6g-YBQ"/>
+                <outlet property="nAssertContains" destination="J9j-7O-wMj" id="nMw-KA-pAu"/>
+                <outlet property="nBoxNone" destination="EXU-Cx-Aei" id="NF2-j8-WOP"/>
+                <outlet property="oChunkSource" destination="O8L-le-5g9" id="w6Y-5T-O6m"/>
+                <outlet property="oTextStyle" destination="xAR-v0-EEa" id="dQQ-X8-Gc5"/>
+                <outlet property="oThePoint" destination="skT-WU-SoE" id="4it-r9-XhA"/>
+                <outlet property="oWrappingView" destination="AxS-LS-6kd" id="dOq-js-LwJ"/>
+                <outlet property="pNewModels" destination="h1g-uE-WYJ" id="Hb4-Ab-4d9"/>
+                <outlet property="pRshiftPacked" destination="7z7-mm-RjB" id="eih-ax-ngn"/>
+                <outlet property="qCachePath" destination="2z3-dc-Cd7" id="cJf-oM-F02"/>
+                <outlet property="qContentIdentifier" destination="xVB-N5-W8a" id="tMR-er-Oss"/>
+                <outlet property="qFrozenRealm" destination="imY-p3-DVW" id="MaM-ed-RvX"/>
+                <outlet property="qUnloadGL" destination="v55-ZU-S3j" id="Jrf-56-sva"/>
+                <outlet property="rRegisterNotifications" destination="eWy-fI-hdn" id="tFh-Oe-dWL"/>
+                <outlet property="rSetNative" destination="844-TI-VTv" id="Qb0-FQ-vvr"/>
+                <outlet property="rSolidContainer" destination="LlI-sj-tcf" id="d8C-vc-rxn"/>
+                <outlet property="rTrueBlock" destination="maT-0c-17W" id="pEy-vX-kPq"/>
+                <outlet property="rUptimeNanoseconds" destination="gCz-vq-RkP" id="wFY-VI-8Oq"/>
+                <outlet property="sBackIndex" destination="4fJ-kY-pzN" id="OCf-Eg-lce"/>
+                <outlet property="sDeviceHeight" destination="IKq-Hu-u44" id="Gdg-1G-d95"/>
+                <outlet property="sMdiValve" destination="fCI-u4-LcD" id="GXg-ds-Tlg"/>
+                <outlet property="sPlayerData" destination="gKi-w2-A3i" id="WKC-nn-CMT"/>
+                <outlet property="uCameraState" destination="eQ1-HU-cac" id="7Yf-NX-Ubu"/>
+                <outlet property="uImagePaths" destination="95R-2S-DlE" id="9nT-OO-mUg"/>
+                <outlet property="vPlaybackUrl" destination="epE-Uv-aDp" id="njz-tG-GW3"/>
+                <outlet property="vPositionRight" destination="95h-Wp-HZS" id="Gc6-nQ-WGG"/>
+                <outlet property="vPreviousContainer" destination="U7B-xq-xuD" id="Nl4-zY-Uui"/>
+                <outlet property="vStopValue" destination="xFV-sB-2xD" id="PLs-jz-GY0"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wForCron" destination="Rgo-70-muV" id="q9m-2e-vej"/>
+                <outlet property="wIssuedToken" destination="lTm-Vm-0K6" id="rcN-bL-SYS"/>
+                <outlet property="xInvalidOperation" destination="m7a-bf-IlO" id="k8S-mO-yxR"/>
+                <outlet property="xSetImageheight" destination="brX-9k-TX4" id="tTX-iZ-2za"/>
+                <outlet property="yNextDelim" destination="ARG-i2-T4e" id="KeE-d9-lfM"/>
+                <outlet property="yOldView" destination="uee-tI-AhX" id="yUK-NK-InP"/>
+                <outlet property="yRuntimeJars" destination="s2U-d3-A55" id="f1i-uo-aKf"/>
+                <outlet property="yStatusTime" destination="DfN-Xa-NMU" id="RCY-2B-AW7"/>
+                <outlet property="yStrParam" destination="xpM-3N-yMj" id="Ry9-NI-gsf"/>
+                <outlet property="zPluginDic" destination="a8e-ef-Chz" id="pUb-Ot-RQv"/>
+                <outlet property="zSamplerDescriptor" destination="Wse-8j-JkA" id="eod-fN-KI5"/>
+                <outlet property="zSolidContainer" destination="PcQ-jD-UkP" id="dh0-vA-ilO"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -1386,7 +1386,7 @@
     </objects>
     <resources>
         <image name="EvenmoreIcon" width="20" height="20"/>
-        <image name="runable_omnsgxug_lions" width="12" height="12"/>
         <image name="UpsideIcon" width="25" height="25"/>
+        <image name="runable_omnsgxug_lions" width="12" height="12"/>
     </resources>
 </document>

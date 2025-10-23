@@ -8,15 +8,15 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PtButtonImageOperation" customModule="Taleo_mine">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PtButtonImageOperation" customModule="CKStar">
             <connections>
-                <outlet property="dBootstrapVersion" destination="Rfg-B2-oCH" id="tSN-pS-Nzy"/>
                 <outlet property="aInfoGlobal" destination="nla-kI-kOy" id="a4a-oP-VlW"/>
-                <outlet property="zCddbPath" destination="sWK-O9-Qb4" id="pxx-lw-ufD"/>
-                <outlet property="wLayoutFacilitator" destination="XR5-4D-vDh" id="qbT-ZH-Eid"/>
                 <outlet property="bControlActive" destination="jZf-0S-Cln" id="x3x-NQ-zu7"/>
+                <outlet property="dBootstrapVersion" destination="Rfg-B2-oCH" id="tSN-pS-Nzy"/>
                 <outlet property="sDeviceHeight" destination="PTF-hn-i0C" id="l6P-LC-o8y"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wLayoutFacilitator" destination="XR5-4D-vDh" id="qbT-ZH-Eid"/>
+                <outlet property="zCddbPath" destination="sWK-O9-Qb4" id="pxx-lw-ufD"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

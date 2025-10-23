@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PtAtrulePrelude" id="gTV-IL-0wX" customClass="PtAtrulePrelude" customModule="Taleo_mine">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PtAtrulePrelude" id="gTV-IL-0wX" customClass="PtAtrulePrelude" customModule="CKStar">
             <rect key="frame" x="0.0" y="0.0" width="109" height="136"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -122,12 +122,12 @@
             </constraints>
             <size key="customSize" width="129" height="212"/>
             <connections>
-                <outlet property="mRecipientAlias" destination="kgf-lh-pWq" id="f02-c7-ZAe"/>
                 <outlet property="kMdiAssistant" destination="XaZ-nd-NF4" id="hHl-M8-24F"/>
-                <outlet property="yAppendingKey" destination="3Jo-qE-VKu" id="7fh-NM-Ihe"/>
+                <outlet property="mRecipientAlias" destination="kgf-lh-pWq" id="f02-c7-ZAe"/>
+                <outlet property="nProductsLabel" destination="0N5-RO-Gop" id="c11-nP-lbB"/>
                 <outlet property="nUnregisterAccount" destination="3ok-YP-mSV" id="38B-zO-FNv"/>
                 <outlet property="tOutlinedHeadset" destination="vY1-OV-8Ke" id="cpz-yz-bi9"/>
-                <outlet property="nProductsLabel" destination="0N5-RO-Gop" id="c11-nP-lbB"/>
+                <outlet property="yAppendingKey" destination="3Jo-qE-VKu" id="7fh-NM-Ihe"/>
             </connections>
             <point key="canvasLocation" x="115.26717557251908" y="45.774647887323944"/>
         </collectionViewCell>

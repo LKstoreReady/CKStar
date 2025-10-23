@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PtErrorLevelError" customModule="Taleo_mine">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PtErrorLevelError" customModule="CKStar">
             <rect key="frame" x="0.0" y="0.0" width="270" height="360"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -82,9 +82,9 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
-                <outlet property="uRemoveListeners" destination="hWv-cB-beh" id="7hd-cg-osO"/>
-                <outlet property="pNormalizedName" destination="VpB-GR-RoK" id="eHP-0B-vm8"/>
                 <outlet property="lStreamIndex" destination="Q91-hr-UtQ" id="p91-No-d9T"/>
+                <outlet property="pNormalizedName" destination="VpB-GR-RoK" id="eHP-0B-vm8"/>
+                <outlet property="uRemoveListeners" destination="hWv-cB-beh" id="7hd-cg-osO"/>
                 <outlet property="yUpdateRunnable" destination="IPX-rx-Un6" id="q6E-IJ-gO5"/>
             </connections>
             <point key="canvasLocation" x="0.0" y="-184.50704225352115"/>

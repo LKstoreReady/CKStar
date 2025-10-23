@@ -14,12 +14,12 @@
         <!--Pt Explain Match Result To-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="PtExplainMatchResultTo" hidesBottomBarWhenPushed="YES" id="Y6W-OH-hqX" customClass="PtExplainMatchResultTo" customModule="Taleo_mine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PtExplainMatchResultTo" hidesBottomBarWhenPushed="YES" id="Y6W-OH-hqX" customClass="PtExplainMatchResultTo" customModule="CKStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="uBx-nM-LyO" customClass="PtAccountFloatLabelCell" customModule="Taleo_mine">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="uBx-nM-LyO" customClass="PtAccountFloatLabelCell" customModule="CKStar">
                                 <rect key="frame" x="0.0" y="128" width="393" height="690"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
@@ -199,7 +199,7 @@
         <!--Pt Min Width-->
         <scene sceneID="gaP-D8-p6j">
             <objects>
-                <viewController storyboardIdentifier="PtMinWidth" hidesBottomBarWhenPushed="YES" id="zS8-Vc-2dE" customClass="PtMinWidth" customModule="Taleo_mine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PtMinWidth" hidesBottomBarWhenPushed="YES" id="zS8-Vc-2dE" customClass="PtMinWidth" customModule="CKStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JAr-TL-PRg">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -586,7 +586,7 @@
         <!--Pt Jump To Date-->
         <scene sceneID="R2s-3c-00l">
             <objects>
-                <viewController storyboardIdentifier="PtJumpToDate" id="C3L-Fp-mnp" customClass="PtJumpToDate" customModule="Taleo_mine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PtJumpToDate" id="C3L-Fp-mnp" customClass="PtJumpToDate" customModule="CKStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HcO-Hx-Bc8">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -686,12 +686,12 @@
         <!--Pt User Pic-->
         <scene sceneID="RhM-SY-FaI">
             <objects>
-                <viewController storyboardIdentifier="PtUserPic" hidesBottomBarWhenPushed="YES" id="yBI-8E-CbZ" customClass="PtUserPic" customModule="Taleo_mine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PtUserPic" hidesBottomBarWhenPushed="YES" id="yBI-8E-CbZ" customClass="PtUserPic" customModule="CKStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nao-GA-Xjd">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="yUc-Ft-wA0" customClass="PtAccountFloatLabelCell" customModule="Taleo_mine">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="yUc-Ft-wA0" customClass="PtAccountFloatLabelCell" customModule="CKStar">
                                 <rect key="frame" x="0.0" y="128" width="393" height="690"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
@@ -869,7 +869,7 @@
         <!--Pt Remote Notification Received-->
         <scene sceneID="GvS-Cc-adR">
             <objects>
-                <viewController storyboardIdentifier="PtRemoteNotificationReceived" hidesBottomBarWhenPushed="YES" id="2gT-5k-24S" customClass="PtRemoteNotificationReceived" customModule="Taleo_mine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PtRemoteNotificationReceived" hidesBottomBarWhenPushed="YES" id="2gT-5k-24S" customClass="PtRemoteNotificationReceived" customModule="CKStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AX7-QK-GP0">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1129,7 +1129,7 @@
                                     <constraint firstItem="9bW-9r-7ij" firstAttribute="leading" secondItem="ETE-mT-cAy" secondAttribute="leading" id="zGW-GP-por"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="oFN-3k-jlP" customClass="PtAccountFloatLabelCell" customModule="Taleo_mine">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="oFN-3k-jlP" customClass="PtAccountFloatLabelCell" customModule="CKStar">
                                 <rect key="frame" x="0.0" y="360.33333333333326" width="393" height="491.66666666666674"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
@@ -1459,7 +1459,7 @@
         <!--Pt Attribute Bottom-->
         <scene sceneID="qZK-aE-Sat">
             <objects>
-                <viewController storyboardIdentifier="PtAttributeBottom" id="T1x-8B-D7U" customClass="PtAttributeBottom" customModule="Taleo_mine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PtAttributeBottom" id="T1x-8B-D7U" customClass="PtAttributeBottom" customModule="CKStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F4X-Of-vNk">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1608,16 +1608,16 @@
         <!--Pt Doraemon Weex Log Level View Delegate-->
         <scene sceneID="Ske-Yq-hSV">
             <objects>
-                <viewController storyboardIdentifier="PtDoraemonWeexLogLevelViewDelegate" hidesBottomBarWhenPushed="YES" id="dAQ-Qh-szl" customClass="PtDoraemonWeexLogLevelViewDelegate" customModule="Taleo_mine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PtDoraemonWeexLogLevelViewDelegate" hidesBottomBarWhenPushed="YES" id="dAQ-Qh-szl" customClass="PtDoraemonWeexLogLevelViewDelegate" customModule="CKStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="icu-Dt-bdE">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Keg-rd-5Y4" customClass="PtAccountFloatLabelCell" customModule="Taleo_mine">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Keg-rd-5Y4" customClass="PtAccountFloatLabelCell" customModule="CKStar">
                                 <rect key="frame" x="0.0" y="89" width="393" height="729"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PtSnakeWatch" id="81p-9H-UBW" customClass="PtSnakeWatch" customModule="Taleo_mine">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PtSnakeWatch" id="81p-9H-UBW" customClass="PtSnakeWatch" customModule="CKStar">
                                         <rect key="frame" x="0.0" y="50" width="393" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="81p-9H-UBW" id="WUO-lj-D6z">
@@ -1788,16 +1788,16 @@
         <!--Pt Layout Element Clear Current Context-->
         <scene sceneID="fUy-V6-Za2">
             <objects>
-                <viewController storyboardIdentifier="PtLayoutElementClearCurrentContext" hidesBottomBarWhenPushed="YES" id="maG-n6-qtI" customClass="PtLayoutElementClearCurrentContext" customModule="Taleo_mine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PtLayoutElementClearCurrentContext" hidesBottomBarWhenPushed="YES" id="maG-n6-qtI" customClass="PtLayoutElementClearCurrentContext" customModule="CKStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nER-gl-UEQ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="D20-JZ-Vhq" customClass="PtAccountFloatLabelCell" customModule="Taleo_mine">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="D20-JZ-Vhq" customClass="PtAccountFloatLabelCell" customModule="CKStar">
                                 <rect key="frame" x="0.0" y="128" width="393" height="690"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PtEmbeddedTreeObject" id="TXN-VB-YeO" customClass="PtEmbeddedTreeObject" customModule="Taleo_mine">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PtEmbeddedTreeObject" id="TXN-VB-YeO" customClass="PtEmbeddedTreeObject" customModule="CKStar">
                                         <rect key="frame" x="0.0" y="50" width="393" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TXN-VB-YeO" id="G4c-a8-avA">
@@ -2007,7 +2007,7 @@
         <!--Pt Utility Area Terminal Tab-->
         <scene sceneID="bcg-F7-1De">
             <objects>
-                <viewController storyboardIdentifier="PtUtilityAreaTerminalTab" hidesBottomBarWhenPushed="YES" id="3LM-Gv-uqP" customClass="PtUtilityAreaTerminalTab" customModule="Taleo_mine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PtUtilityAreaTerminalTab" hidesBottomBarWhenPushed="YES" id="3LM-Gv-uqP" customClass="PtUtilityAreaTerminalTab" customModule="CKStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6wp-VX-6JH">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2538,7 +2538,7 @@
         <!--Pt Tree Position-->
         <scene sceneID="jCT-0L-8SS">
             <objects>
-                <viewController storyboardIdentifier="PtTreePosition" id="zWQ-5Z-O2K" customClass="PtTreePosition" customModule="Taleo_mine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PtTreePosition" id="zWQ-5Z-O2K" customClass="PtTreePosition" customModule="CKStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lsg-1U-Yf1">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2884,7 +2884,7 @@
         <!--Pt Finalizer Thread Callback-->
         <scene sceneID="2rq-FP-D6M">
             <objects>
-                <viewController storyboardIdentifier="PtFinalizerThreadCallback" id="Bp4-i1-woo" customClass="PtFinalizerThreadCallback" customModule="Taleo_mine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PtFinalizerThreadCallback" id="Bp4-i1-woo" customClass="PtFinalizerThreadCallback" customModule="CKStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bUJ-9n-t4N">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2893,7 +2893,7 @@
                                 <rect key="frame" x="0.0" y="128" width="393" height="690"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PtThumbnailService" id="6wf-p7-XDE" customClass="PtThumbnailService" customModule="Taleo_mine">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PtThumbnailService" id="6wf-p7-XDE" customClass="PtThumbnailService" customModule="CKStar">
                                         <rect key="frame" x="0.0" y="50" width="393" height="48"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6wf-p7-XDE" id="EeO-Ca-KAE">
@@ -3043,16 +3043,16 @@
         <!--Pt Draw Selection Frame-->
         <scene sceneID="eAs-8y-8Pf">
             <objects>
-                <viewController storyboardIdentifier="PtDrawSelectionFrame" id="rQx-ng-K4l" customClass="PtDrawSelectionFrame" customModule="Taleo_mine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PtDrawSelectionFrame" id="rQx-ng-K4l" customClass="PtDrawSelectionFrame" customModule="CKStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ifR-we-O8Q">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="nqt-3T-j19" customClass="PtAccountFloatLabelCell" customModule="Taleo_mine">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="nqt-3T-j19" customClass="PtAccountFloatLabelCell" customModule="CKStar">
                                 <rect key="frame" x="0.0" y="128" width="393" height="690"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PtFindOrder" id="6Uy-QS-N6d" customClass="PtFindOrder" customModule="Taleo_mine">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PtFindOrder" id="6Uy-QS-N6d" customClass="PtFindOrder" customModule="CKStar">
                                         <rect key="frame" x="0.0" y="50" width="393" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6Uy-QS-N6d" id="m77-fm-bGn">
@@ -3218,7 +3218,7 @@
         <!--Pt Format Hex Int-->
         <scene sceneID="mpp-dt-4tZ">
             <objects>
-                <viewController storyboardIdentifier="PtFormatHexInt" hidesBottomBarWhenPushed="YES" id="sa4-D3-fDl" customClass="PtFormatHexInt" customModule="Taleo_mine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PtFormatHexInt" hidesBottomBarWhenPushed="YES" id="sa4-D3-fDl" customClass="PtFormatHexInt" customModule="CKStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Opu-zf-p7B">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3725,7 +3725,7 @@
         <!--Pt Data FormatJS-->
         <scene sceneID="NS8-XR-HtU">
             <objects>
-                <viewController storyboardIdentifier="PtDataFormatJS" hidesBottomBarWhenPushed="YES" id="MFa-rE-C0Y" customClass="PtDataFormatJS" customModule="Taleo_mine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PtDataFormatJS" hidesBottomBarWhenPushed="YES" id="MFa-rE-C0Y" customClass="PtDataFormatJS" customModule="CKStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7KT-YY-WEG">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3847,7 +3847,7 @@
         <!--Uo Installation Id-->
         <scene sceneID="4ti-ww-BAu">
             <objects>
-                <viewController storyboardIdentifier="UoInstallationId" hidesBottomBarWhenPushed="YES" id="q7O-cd-z4e" customClass="UoInstallationId" customModule="Taleo_mine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UoInstallationId" hidesBottomBarWhenPushed="YES" id="q7O-cd-z4e" customClass="UoInstallationId" customModule="CKStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hoi-yg-PWm">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4062,7 +4062,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MmA-RY-NKg">
                                                 <rect key="frame" x="393" y="0.0" width="393" height="675"/>
                                                 <subviews>
-                                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="2sz-Hr-gCX" customClass="PtNotificationsProtocolSwift" customModule="Taleo_mine">
+                                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="2sz-Hr-gCX" customClass="PtNotificationsProtocolSwift" customModule="CKStar">
                                                         <rect key="frame" x="0.0" y="0.0" width="393" height="675"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="q6D-gQ-kHt">
@@ -4258,7 +4258,7 @@
         <!--Pt Code Type Of Expression-->
         <scene sceneID="moW-lx-6YQ">
             <objects>
-                <viewController storyboardIdentifier="PtCodeTypeOfExpression" hidesBottomBarWhenPushed="YES" id="bXL-pT-VkC" customClass="PtCodeTypeOfExpression" customModule="Taleo_mine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PtCodeTypeOfExpression" hidesBottomBarWhenPushed="YES" id="bXL-pT-VkC" customClass="PtCodeTypeOfExpression" customModule="CKStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o00-Gl-7eM">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4367,7 +4367,7 @@
                                             <action selector="gridDrawable:" destination="bXL-pT-VkC" eventType="touchUpInside" id="DCd-pT-dQN"/>
                                         </connections>
                                     </button>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQ4-oI-v3f" customClass="HePropertyTagGpsGpsTime" customModule="Taleo_Chatroom">
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQ4-oI-v3f" customClass="HePropertyTagGpsGpsTime" customModule="CKStar">
                                         <rect key="frame" x="254.33333333333329" y="8" width="36.666666666666657" height="17"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                         <nil key="textColor"/>
@@ -4400,7 +4400,7 @@
                                             <action selector="gridDrawable:" destination="bXL-pT-VkC" eventType="touchUpInside" id="fnT-vQ-3HW"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gST-py-LPK" customClass="HePropertyTagGpsGpsTime" customModule="Taleo_Chatroom">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gST-py-LPK" customClass="HePropertyTagGpsGpsTime" customModule="CKStar">
                                         <rect key="frame" x="70" y="8" width="36.666666666666657" height="17"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -4516,7 +4516,7 @@
         <!--Pt Stack Layout Align Content Start-->
         <scene sceneID="fTv-ln-OlW">
             <objects>
-                <viewController storyboardIdentifier="PtStackLayoutAlignContentStart" hidesBottomBarWhenPushed="YES" id="nGN-tg-N3s" customClass="PtStackLayoutAlignContentStart" customModule="Taleo_mine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PtStackLayoutAlignContentStart" hidesBottomBarWhenPushed="YES" id="nGN-tg-N3s" customClass="PtStackLayoutAlignContentStart" customModule="CKStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NVY-oO-iiv">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4778,12 +4778,12 @@
         <!--Pt Quick Open-->
         <scene sceneID="2DV-S5-uiQ">
             <objects>
-                <viewController storyboardIdentifier="PtQuickOpen" hidesBottomBarWhenPushed="YES" id="dHp-Kv-znz" customClass="PtQuickOpen" customModule="Taleo_mine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PtQuickOpen" hidesBottomBarWhenPushed="YES" id="dHp-Kv-znz" customClass="PtQuickOpen" customModule="CKStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JBf-2B-EQp">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" contentInsetAdjustmentBehavior="never" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="C94-2d-7ZA" customClass="PtAccountFloatLabelCell" customModule="Taleo_mine">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" contentInsetAdjustmentBehavior="never" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="C94-2d-7ZA" customClass="PtAccountFloatLabelCell" customModule="CKStar">
                                 <rect key="frame" x="0.0" y="104" width="393" height="714"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
@@ -4897,7 +4897,7 @@
         <!--Pt Freeze Painting-->
         <scene sceneID="l30-le-seh">
             <objects>
-                <viewController storyboardIdentifier="PtFreezePainting" hidesBottomBarWhenPushed="YES" id="etv-IU-rTF" customClass="PtFreezePainting" customModule="Taleo_mine" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PtFreezePainting" hidesBottomBarWhenPushed="YES" id="etv-IU-rTF" customClass="PtFreezePainting" customModule="CKStar" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VlN-kd-dB9">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

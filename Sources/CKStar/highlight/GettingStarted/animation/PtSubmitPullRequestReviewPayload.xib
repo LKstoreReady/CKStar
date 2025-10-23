@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="U6b-Vx-4bR" customClass="PtSubmitPullRequestReviewPayload" customModule="Taleo_mine">
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="U6b-Vx-4bR" customClass="PtSubmitPullRequestReviewPayload" customModule="CKStar">
             <rect key="frame" x="0.0" y="0.0" width="430" height="236"/>
             <autoresizingMask key="autoresizingMask"/>
             <subviews>
@@ -144,10 +144,10 @@
             </constraints>
             <connections>
                 <outlet property="cUniqueData" destination="IFi-Um-DCM" id="56N-vD-2LN"/>
-                <outlet property="sExternalDelegate" destination="kut-xd-m5o" id="hWL-sl-Pjt"/>
                 <outlet property="fSessionEnd" destination="0VZ-VA-naw" id="zEY-5P-rvv"/>
-                <outlet property="vSetPrice" destination="RgI-wF-ex0" id="Rjg-Vt-acf"/>
                 <outlet property="lCreateMatrix" destination="ITF-v0-Rlf" id="pDk-th-mnK"/>
+                <outlet property="sExternalDelegate" destination="kut-xd-m5o" id="hWL-sl-Pjt"/>
+                <outlet property="vSetPrice" destination="RgI-wF-ex0" id="Rjg-Vt-acf"/>
             </connections>
             <point key="canvasLocation" x="149.61832061068702" y="65.492957746478879"/>
         </collectionReusableView>

@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PtMutablePaymentStub" customModule="Taleo_mine">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PtMutablePaymentStub" customModule="CKStar">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -296,21 +296,21 @@
                 <constraint firstItem="ans-eg-29A" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dYJ-kD-gLj"/>
             </constraints>
             <connections>
-                <outlet property="mDstAngle" destination="09V-i5-brF" id="qw9-Kh-Z14"/>
                 <outlet property="dDiameter" destination="eDC-qQ-aAb" id="eDD-jR-Ey4"/>
-                <outlet property="zEffectiveFont" destination="g1e-xE-dIl" id="mij-Ob-kqP"/>
-                <outlet property="rAdditionalRows" destination="ad6-sV-5AU" id="fRM-FK-Qip"/>
-                <outlet property="rColourPicker" destination="56s-wG-VaW" id="Xju-pn-t1y"/>
                 <outlet property="eOtherIdentifiers" destination="XdY-UD-YJM" id="qyB-TZ-70k"/>
                 <outlet property="fDidUpdate" destination="5Dk-9r-7Wu" id="9uU-FC-EmQ"/>
                 <outlet property="lMgfSeed" destination="gWr-Ha-GNA" id="tJw-NK-qgK"/>
+                <outlet property="mDstAngle" destination="09V-i5-brF" id="qw9-Kh-Z14"/>
+                <outlet property="rAdditionalRows" destination="ad6-sV-5AU" id="fRM-FK-Qip"/>
+                <outlet property="rColourPicker" destination="56s-wG-VaW" id="Xju-pn-t1y"/>
+                <outlet property="zEffectiveFont" destination="g1e-xE-dIl" id="mij-Ob-kqP"/>
             </connections>
             <point key="canvasLocation" x="106.10687022900763" y="-11.267605633802818"/>
         </view>
     </objects>
     <resources>
-        <image name="capture_followings_mamaral" width="54" height="54"/>
         <image name="bawaan_orzmini" width="100" height="31"/>
+        <image name="capture_followings_mamaral" width="54" height="54"/>
         <image name="imgtype_dbcx" width="177" height="41"/>
         <image name="riportato_setter" width="30" height="30"/>
     </resources>

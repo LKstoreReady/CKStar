@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PtInstallOrUpdateDependency" customModule="Taleo_mine">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PtInstallOrUpdateDependency" customModule="CKStar">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -118,9 +118,9 @@
                 <constraint firstItem="gHN-71-D5J" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="pJq-g4-HQA"/>
             </constraints>
             <connections>
-                <outlet property="zPrecomputedItems" destination="wmC-Ul-CvX" id="5tf-li-qO3"/>
                 <outlet property="lStreamIndex" destination="ewi-W9-gIm" id="Clv-t6-2oL"/>
                 <outlet property="pJumpSpeed" destination="acS-I0-G6q" id="hUx-EQ-ZIe"/>
+                <outlet property="zPrecomputedItems" destination="wmC-Ul-CvX" id="5tf-li-qO3"/>
             </connections>
             <point key="canvasLocation" x="130.53435114503816" y="-11.267605633802818"/>
         </view>

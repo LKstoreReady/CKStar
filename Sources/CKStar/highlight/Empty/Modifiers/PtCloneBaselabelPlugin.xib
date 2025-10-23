@@ -8,14 +8,14 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PtCloneBaselabelPlugin" customModule="Taleo_mine">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PtCloneBaselabelPlugin" customModule="CKStar">
             <connections>
+                <outlet property="bFrameDelay" destination="VWd-yP-yo4" id="1vV-Dp-QX7"/>
+                <outlet property="nFlingPlot" destination="WxR-0J-Vtp" id="wOU-EQ-ciA"/>
+                <outlet property="pScrollPlot" destination="xSd-MO-1xa" id="bl5-Gf-0KV"/>
                 <outlet property="tMenuSession" destination="iN0-l3-epB" id="Y62-VV-mvZ"/>
                 <outlet property="xSetPasswd" destination="jF3-GU-dxT" id="N2P-dD-GA2"/>
-                <outlet property="pScrollPlot" destination="xSd-MO-1xa" id="bl5-Gf-0KV"/>
                 <outlet property="yItemMetadata" destination="2Bq-fu-zBz" id="8aM-A4-GIZ"/>
-                <outlet property="nFlingPlot" destination="WxR-0J-Vtp" id="wOU-EQ-ciA"/>
-                <outlet property="bFrameDelay" destination="VWd-yP-yo4" id="1vV-Dp-QX7"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

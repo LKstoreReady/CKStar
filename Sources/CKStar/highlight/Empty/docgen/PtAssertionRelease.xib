@@ -8,23 +8,23 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PtAssertionRelease" customModule="Taleo_mine">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PtAssertionRelease" customModule="CKStar">
             <connections>
-                <outlet property="xSampleCounts" destination="BGm-ej-ENt" id="ql9-S8-GkF"/>
-                <outlet property="gChannelData" destination="ptV-cg-6I7" id="MWf-wW-kNm"/>
-                <outlet property="xWithInterface" destination="Nzm-Tq-ytq" id="1ut-rz-Y5R"/>
-                <outlet property="bDeleteView" destination="odt-Gf-VwQ" id="9Sg-J7-afV"/>
-                <outlet property="zCreateRepository" destination="E9V-18-DtI" id="vRz-cI-qC6"/>
-                <outlet property="tMenuSession" destination="iN0-l3-epB" id="pxz-w2-xLj"/>
-                <outlet property="fParseTransform" destination="sg2-wR-0og" id="AiA-Xp-4Aq"/>
-                <outlet property="oOrganizationTypes" destination="F0J-wn-6vx" id="6RR-oH-MEe"/>
-                <outlet property="mOutlinedStart" destination="Ryj-C4-Uw8" id="oU8-gb-oKa"/>
-                <outlet property="rEmailError" destination="A05-sB-YD8" id="BM5-2G-wyf"/>
-                <outlet property="rSumOutput" destination="fVv-o6-y9Y" id="XFk-zR-UYr"/>
-                <outlet property="yAppendingKey" destination="GJj-jF-ddd" id="hbd-Ww-St2"/>
                 <outlet property="aAckMessage" destination="RyQ-aq-Vhi" id="miT-Nf-ag8"/>
-                <outlet property="wGetStatus" destination="ERZ-w2-IVT" id="WJ7-A0-Us3"/>
+                <outlet property="bDeleteView" destination="odt-Gf-VwQ" id="9Sg-J7-afV"/>
+                <outlet property="fParseTransform" destination="sg2-wR-0og" id="AiA-Xp-4Aq"/>
+                <outlet property="gChannelData" destination="ptV-cg-6I7" id="MWf-wW-kNm"/>
+                <outlet property="mOutlinedStart" destination="Ryj-C4-Uw8" id="oU8-gb-oKa"/>
+                <outlet property="oOrganizationTypes" destination="F0J-wn-6vx" id="6RR-oH-MEe"/>
+                <outlet property="rEmailError" destination="A05-sB-YD8" id="BM5-2G-wyf"/>
                 <outlet property="rHideKeyboard" destination="C2j-28-9kk" id="KyD-fg-JuW"/>
+                <outlet property="rSumOutput" destination="fVv-o6-y9Y" id="XFk-zR-UYr"/>
+                <outlet property="tMenuSession" destination="iN0-l3-epB" id="pxz-w2-xLj"/>
+                <outlet property="wGetStatus" destination="ERZ-w2-IVT" id="WJ7-A0-Us3"/>
+                <outlet property="xSampleCounts" destination="BGm-ej-ENt" id="ql9-S8-GkF"/>
+                <outlet property="xWithInterface" destination="Nzm-Tq-ytq" id="1ut-rz-Y5R"/>
+                <outlet property="yAppendingKey" destination="GJj-jF-ddd" id="hbd-Ww-St2"/>
+                <outlet property="zCreateRepository" destination="E9V-18-DtI" id="vRz-cI-qC6"/>
                 <outlet property="zPlistFiles" destination="wqw-bY-ZKM" id="ylo-xP-gEb"/>
             </connections>
         </placeholder>

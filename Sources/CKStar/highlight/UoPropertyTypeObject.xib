@@ -9,29 +9,29 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UoPropertyTypeObject" customModule="Taleo_mine">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UoPropertyTypeObject" customModule="CKStar">
             <connections>
-                <outlet property="lStartNative" destination="pcP-Fq-RbP" id="IEZ-Wn-1nR"/>
-                <outlet property="yIsRecognized" destination="1wn-XX-2JK" id="vLG-Ri-5Iz"/>
-                <outlet property="uHalfDimensions" destination="HqR-8T-QoT" id="G8N-oZ-tTX"/>
-                <outlet property="mLaYoutube" destination="RwX-FQ-6Sz" id="npO-Wd-7Cn"/>
-                <outlet property="uTargetBinary" destination="9a2-XA-jkI" id="T2x-Yq-NZE"/>
-                <outlet property="eIonMedkit" destination="M03-Vf-USp" id="yZk-Ae-rAz"/>
-                <outlet property="vSetPrice" destination="u0j-du-3pz" id="2U6-7t-IPL"/>
-                <outlet property="lStopCode" destination="Y4N-2p-7at" id="FeT-84-mbA"/>
                 <outlet property="aGroupCalls" destination="hB4-E9-51U" id="KBA-Yu-dNx"/>
-                <outlet property="pClientExpiration" destination="nAT-iX-5xd" id="w6C-PS-gjy"/>
-                <outlet property="sFrozenRealm" destination="SOr-Ee-155" id="A6F-Xr-flh"/>
+                <outlet property="aRestartDirector" destination="kAN-Qx-wU4" id="juk-Lf-QeU"/>
+                <outlet property="aRotationMode" destination="Tkj-Eu-uqr" id="B9g-46-N28"/>
+                <outlet property="dOutEnabled" destination="GPe-lE-Oiz" id="CZb-yX-FGZ"/>
+                <outlet property="eIonMedkit" destination="M03-Vf-USp" id="yZk-Ae-rAz"/>
+                <outlet property="gImportLocation" destination="Xgn-Ky-r1F" id="fVz-Wo-XlN"/>
                 <outlet property="gPcbData" destination="aV4-QN-fH3" id="sb4-gI-bFc"/>
                 <outlet property="hRequestArray" destination="uqK-pS-r7Y" id="Kym-FU-5PJ"/>
-                <outlet property="gImportLocation" destination="Xgn-Ky-r1F" id="fVz-Wo-XlN"/>
-                <outlet property="aRestartDirector" destination="kAN-Qx-wU4" id="juk-Lf-QeU"/>
-                <outlet property="oTextStyle" destination="2E7-5h-09Y" id="LE3-xM-nM9"/>
-                <outlet property="dOutEnabled" destination="GPe-lE-Oiz" id="CZb-yX-FGZ"/>
-                <outlet property="aRotationMode" destination="Tkj-Eu-uqr" id="B9g-46-N28"/>
                 <outlet property="iTimestampText" destination="jZ7-tL-ADO" id="ks0-s1-4fk"/>
+                <outlet property="lStartNative" destination="pcP-Fq-RbP" id="IEZ-Wn-1nR"/>
+                <outlet property="lStopCode" destination="Y4N-2p-7at" id="FeT-84-mbA"/>
+                <outlet property="mLaYoutube" destination="RwX-FQ-6Sz" id="npO-Wd-7Cn"/>
+                <outlet property="oTextStyle" destination="2E7-5h-09Y" id="LE3-xM-nM9"/>
+                <outlet property="pClientExpiration" destination="nAT-iX-5xd" id="w6C-PS-gjy"/>
+                <outlet property="sFrozenRealm" destination="SOr-Ee-155" id="A6F-Xr-flh"/>
                 <outlet property="sNodeRef" destination="tIE-7m-DQv" id="E1U-Yi-BHS"/>
+                <outlet property="uHalfDimensions" destination="HqR-8T-QoT" id="G8N-oZ-tTX"/>
+                <outlet property="uTargetBinary" destination="9a2-XA-jkI" id="T2x-Yq-NZE"/>
+                <outlet property="vSetPrice" destination="u0j-du-3pz" id="2U6-7t-IPL"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="yIsRecognized" destination="1wn-XX-2JK" id="vLG-Ri-5Iz"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
