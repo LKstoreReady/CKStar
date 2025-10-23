@@ -23,7 +23,7 @@
                                 <rect key="frame" x="0.0" y="128" width="393" height="690"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PtBackgroundFetchResultNewData" id="epx-MK-MUt" customClass="PtBackgroundFetchResultNewData" customModule="Taleo_mine">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PtBackgroundFetchResultNewData" id="epx-MK-MUt" customClass="PtBackgroundFetchResultNewData" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="epx-MK-MUt" id="9N0-Xw-bRY">
@@ -695,7 +695,7 @@
                                 <rect key="frame" x="0.0" y="128" width="393" height="690"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PtOnInstanceClose" id="YO0-Wq-IoZ" customClass="PtOnInstanceClose" customModule="Taleo_mine">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PtOnInstanceClose" id="YO0-Wq-IoZ" customClass="PtOnInstanceClose" customModule="CKStar">
                                         <rect key="frame" x="0.0" y="50" width="393" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YO0-Wq-IoZ" id="Kzv-7u-Qyx">
@@ -4967,7 +4967,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="54l-LQ-nVU">
                                         <rect key="frame" x="72" y="25" width="216" height="10"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VNU-aM-GJ0" customClass="PtSwitchString" customModule="Taleo_mine">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VNU-aM-GJ0" customClass="PtSwitchString" customModule="CKStar">
                                                 <rect key="frame" x="0.0" y="0.0" width="216" height="10"/>
                                                 <color key="backgroundColor" red="0.76862745098039209" green="0.75294117647058822" blue="0.83137254901960778" alpha="1" colorSpace="calibratedRGB"/>
                                                 <userDefinedRuntimeAttributes>

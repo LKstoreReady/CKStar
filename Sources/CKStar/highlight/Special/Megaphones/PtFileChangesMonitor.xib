@@ -228,7 +228,7 @@
                                 <constraint firstAttribute="trailing" secondItem="Bdz-wi-fCH" secondAttribute="trailing" constant="15" id="uak-AY-upW"/>
                             </constraints>
                         </view>
-                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="okG-8Q-4zj" customClass="PtRegistrationLoadingMode" customModule="Taleo_mine">
+                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="okG-8Q-4zj" customClass="PtRegistrationLoadingMode" customModule="CKStar">
                             <rect key="frame" x="0.0" y="326" width="393" height="170"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </view>
