@@ -4,7 +4,7 @@ import UIKit
 class PtMutablePaymentStub: UIView {
     @IBOutlet weak var mDstAngle: UIView! {
         didSet {
-            self.mDstAngle.layer.contents = UIImage(named:"iconify_salen_buttoncraft")?.cgImage
+            self.mDstAngle.layer.contents = UIImage.showSystemToast("iconify_salen_buttoncraft").cgImage
         }
     }
         
