@@ -118,7 +118,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pNx-lF-zaC">
                                                     <rect key="frame" x="26" y="3.3333333333333144" width="105" height="8"/>
                                                     <subviews>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tkj-Eu-uqr" customClass="PtSwitchString" customModule="Taleo_mine">
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tkj-Eu-uqr" customClass="PtSwitchString" customModule="CKStar">
                                                             <rect key="frame" x="0.0" y="0.0" width="105" height="8"/>
                                                             <color key="backgroundColor" red="1" green="0.98039215686274506" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
                                                             <userDefinedRuntimeAttributes>
