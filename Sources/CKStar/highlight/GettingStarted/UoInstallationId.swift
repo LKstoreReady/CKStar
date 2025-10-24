@@ -74,13 +74,13 @@ class UoInstallationId: HeTraditionalChineseObject,UIScrollViewDelegate,UICollec
             sConnectionOptions = rMatForward
             sConnectionOptions.isSelected = true
             view.layoutIfNeeded()
-            zOutlinedTerminal.constant = (uAllArguments - 120)/4 - 10
-            oActivityError.setContentOffset(CGPoint(x: 0, y: 0), animated: false)
+            DispatchQueue.main.asyncAfter(deadline: .now()+0.1){
+                self.gridDrawable(self.rMatForward)
+            }
         } else {
             DispatchQueue.main.asyncAfter(deadline: .now()+0.1){
                 self.gridDrawable(self.dRecursiveTriggers)
             }
-                        
         }
         topMomentumScrollEnd()
                 
@@ -115,7 +115,7 @@ class UoInstallationId: HeTraditionalChineseObject,UIScrollViewDelegate,UICollec
         sConnectionOptions.isSelected = false
         if HeExecuteDelete.iRemindersB.vRawColors {
             self.zOutlinedTerminal.constant = sender.frame.origin.x + (sender.frame.size.width - 20)/2
-            self.oActivityError.contentOffset = CGPointMake(uAllArguments*CGFloat(1), 0)
+            self.oActivityError.contentOffset = CGPointMake(uAllArguments*CGFloat(0), 0)
             self.oActivityError.isScrollEnabled = false
             self.view.layoutIfNeeded()
         } else {
@@ -206,9 +206,9 @@ class UoInstallationId: HeTraditionalChineseObject,UIScrollViewDelegate,UICollec
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         if scrollView == oActivityError {
             if (scrollView.contentOffset.x == uAllArguments) {
-                gridDrawable(dRecursiveTriggers)
-            } else if (scrollView.contentOffset.x == 0) {
                 gridDrawable(rMatForward)
+            } else if (scrollView.contentOffset.x == 0) {
+                gridDrawable(dRecursiveTriggers)
             }
         }
                 
