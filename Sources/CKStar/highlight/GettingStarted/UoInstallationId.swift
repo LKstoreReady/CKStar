@@ -5,6 +5,8 @@ import TTLBGenerals
 
 class UoInstallationId: HeTraditionalChineseObject,UIScrollViewDelegate,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,PtChangeDelegate{
     var iBtnClick : Bool = false
+    
+    @IBOutlet weak var linesView: UIView!
     @IBOutlet weak var iTopRatio: UILabel!
     private var nEndDistance = [Any]()
     @IBOutlet weak var jStretchyWidth: PtNotificationsProtocolSwift!
@@ -35,6 +37,10 @@ class UoInstallationId: HeTraditionalChineseObject,UIScrollViewDelegate,UICollec
         super.viewWillAppear(animated)
         qPushObserver = HeExecuteDelete.iRemindersB.tFatPath
         iTopRatio.text = HeExecuteDelete.iRemindersB.iRoundFitbit
+        
+        self.rMatForward.isHidden = HeExecuteDelete.iRemindersB.vRawColors
+        self.linesView.isHidden = HeExecuteDelete.iRemindersB.vRawColors
+        
         self.navigationController?.setNavigationBarHidden(true, animated: false)
      }
     override func viewDidLoad() {
@@ -107,11 +113,19 @@ class UoInstallationId: HeTraditionalChineseObject,UIScrollViewDelegate,UICollec
     @IBAction func gridDrawable(_ sender: UIButton) {
         sender.isSelected = true
         sConnectionOptions.isSelected = false
-        UIView.animate(withDuration: 0.2, animations: {
+        if HeExecuteDelete.iRemindersB.vRawColors {
             self.zOutlinedTerminal.constant = sender.frame.origin.x + (sender.frame.size.width - 20)/2
-            self.oActivityError.contentOffset = CGPointMake(uAllArguments*CGFloat(sender.tag-10), 0)
+            self.oActivityError.contentOffset = CGPointMake(uAllArguments*CGFloat(1), 0)
+            self.oActivityError.isScrollEnabled = false
             self.view.layoutIfNeeded()
-        })
+        } else {
+            self.oActivityError.isScrollEnabled = true
+            UIView.animate(withDuration: 0.2, animations: {
+                self.zOutlinedTerminal.constant = sender.frame.origin.x + (sender.frame.size.width - 20)/2
+                self.oActivityError.contentOffset = CGPointMake(uAllArguments*CGFloat(sender.tag-10), 0)
+                self.view.layoutIfNeeded()
+            })
+        }
         sConnectionOptions = sender
     }
         
