@@ -46,6 +46,7 @@ class UoPropertyTypeObject: HeTraditionalChineseObject {
         let sNotify = UIView(frame: CGRectMake(5, 15, aFullIntersection - 40, height))
         sNotify.backgroundColor = GettingColors("color_narendramodi")
         sNotify.mdiFormatTextdirectionRToL(20, .black, 0.2, 1, 1, 20)
+        
         return sNotify
     }
         
