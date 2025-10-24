@@ -1342,9 +1342,6 @@
                     <rect key="frame" x="353" y="77" width="20" height="22"/>
                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                     <state key="normal" image="EvenmoreIcon"/>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="wRefreshFeed" value="EvenmoreIcon"/>
-                    </userDefinedRuntimeAttributes>
                     <connections>
                         <action selector="newFileType:" destination="-1" eventType="touchUpInside" id="f0R-QE-N5Z"/>
                     </connections>
