@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -1321,13 +1322,17 @@
                     </constraints>
                 </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IKq-Hu-u44">
-                    <rect key="frame" x="176" y="77.666666666666671" width="41.333333333333343" height="20.333333333333329"/>
+                    <rect key="frame" x="176" y="64" width="41.333333333333343" height="34"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" red="0.80392156862745101" green="0.52941176470588236" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ha-Ht-GnW">
-                    <rect key="frame" x="20" y="75.333333333333329" width="25" height="25"/>
+                    <rect key="frame" x="20" y="59" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="K0x-nz-4LZ"/>
+                        <constraint firstAttribute="width" constant="44" id="ePt-hD-lrT"/>
+                    </constraints>
                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                     <state key="normal" image="UpsideIcon"/>
                     <userDefinedRuntimeAttributes>
@@ -1338,7 +1343,7 @@
                     </connections>
                 </button>
                 <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gKi-w2-A3i">
-                    <rect key="frame" x="353" y="77" width="20" height="22"/>
+                    <rect key="frame" x="353" y="70" width="20" height="22"/>
                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                     <state key="normal" image="EvenmoreIcon"/>
                     <userDefinedRuntimeAttributes>
@@ -1361,6 +1366,7 @@
                 <constraint firstItem="xXH-dd-hAu" firstAttribute="top" secondItem="xgL-ko-3Ug" secondAttribute="bottom" constant="-25" id="97G-tC-0df"/>
                 <constraint firstItem="bLB-8t-4vb" firstAttribute="leading" secondItem="Qrf-eH-NOH" secondAttribute="leading" id="Bkz-dB-Fg9"/>
                 <constraint firstItem="IKq-Hu-u44" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Dcq-pS-gAM"/>
+                <constraint firstItem="1ha-Ht-GnW" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Dla-WM-3Mw"/>
                 <constraint firstItem="1ha-Ht-GnW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="KBX-Lo-5kX"/>
                 <constraint firstItem="gKi-w2-A3i" firstAttribute="centerY" secondItem="IKq-Hu-u44" secondAttribute="centerY" id="OwU-SO-tn3"/>
                 <constraint firstItem="1ha-Ht-GnW" firstAttribute="centerY" secondItem="IKq-Hu-u44" secondAttribute="centerY" id="Pib-d4-QCU"/>
