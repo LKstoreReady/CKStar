@@ -13,6 +13,12 @@ class UoPropertyTypeObject: HeTraditionalChineseObject {
             self.aRotationMode.showAllEditors = [GettingColors("F85F1E"),GettingColors("FFCC12")]
         }
     }
+    
+    @IBOutlet weak var VistView: UIView!
+    @IBOutlet weak var WalletVjew: UIView!
+    @IBOutlet weak var iswallView: UIView!
+    
+    
     @IBOutlet weak var iTimestampText: NSLayoutConstraint!
     @IBOutlet weak var uTargetBinary: UIImageView!
     @IBOutlet weak var gImportLocation: UIView!
@@ -45,6 +51,18 @@ class UoPropertyTypeObject: HeTraditionalChineseObject {
         
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        if HeExecuteDelete.iRemindersB.vRawColors {
+            self.WalletVjew.isHidden = true
+            self.iswallView.isHidden = false
+            self.VistView.layer.maskedCorners = [.layerMaxXMaxYCorner,.layerMaxXMinYCorner,.layerMinXMaxYCorner,.layerMinXMinYCorner]
+        } else {
+            self.WalletVjew.isHidden = false
+            self.iswallView.isHidden = true
+            self.VistView.layer.maskedCorners = [.layerMinXMinYCorner,.layerMaxXMinYCorner]
+
+        }
+
+        
         self.navigationController?.setNavigationBarHidden(true, animated: false)
         wBackgroundQueue.updateContentsForConfirmPay(gImportLocation)
         localFileCacheKeyPrefix()
